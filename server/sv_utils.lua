@@ -108,7 +108,7 @@ GetPlayerIdentifiersWithoutIP = function(player)
     return cleanedIdentifiers
 end
 
--- Copy and pasta for VersionChecker func from ox_lib Credit: "https://github.com/overextended/ox_lib"
+-- Version checker for the git page
 VersionCheck = function(repository)
     local resource = GetInvokingResource() or GetCurrentResourceName()
 
